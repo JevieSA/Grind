@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerInventory : MonoBehaviour {
 
-	private List<ItemBase> playerInventory;
+	private Dictionary<int, int> playerInventory;
 
 	// Use this for initialization
 	void Start () {
@@ -12,26 +12,26 @@ public class PlayerInventory : MonoBehaviour {
 	}
 
 	void LoadInventory(){
-		playerInventory = new List<ItemBase> ();
+		playerInventory = new Dictionary<int, int> ();
 	}
 
 	public void AddItem(int id, int quantity) {
 		if (playerInventory.Count > 0) {
-			foreach (ItemBase i in playerInventory) {
-				if (i.itemId == id)
-					i.itemQuantity += quantity;
-				else
-					playerInventory.Add (new ItemBase (id, quantity));
-			}
-		} else
-			playerInventory.Add (new ItemBase (id, quantity));
+			if (playerInventory.ContainsKey(id))
+					playerInventory[id] += quantity;
+				else {
+					playerInventory.Add (id, quantity);
+				}
+		} else {
+			playerInventory.Add (id, quantity);
+		}
 
 		PrintInventory ();
 	}
 
 	void PrintInventory() {
-		foreach(ItemBase i in playerInventory){	
-			print ("ID: " + i.itemId + " :: " + i.itemQuantity);
+		foreach(KeyValuePair<int, int> i in playerInventory){	
+			print ("ID: " + i.Key + " :: " + i.Value);
 		}
 	}
 }

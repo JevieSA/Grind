@@ -36,13 +36,13 @@ public class LootTable : MonoBehaviour{
 				print ("Random number: " + randomNumber);
 
 				if (randomNumber <= 500 && randomNumber >= 0) {
-					listOfItemsDropped.Add(commonItems.IndexOf(0));
+					listOfItemsDropped.Add(commonItems[0]);
 				} else if (randomNumber <= 700 && randomNumber >= 501) {
-					listOfItemsDropped.Add(uncommonItems.IndexOf(0));
+					listOfItemsDropped.Add(uncommonItems[0]);
 				} else if (randomNumber <= 800 && randomNumber >= 701) {
-					listOfItemsDropped.Add(rareItems.IndexOf(0));
+					listOfItemsDropped.Add(rareItems[0]);
 				} else if (randomNumber <= 850 && randomNumber >= 801) {
-					listOfItemsDropped.Add(epicItems.IndexOf(0));
+					listOfItemsDropped.Add(epicItems[0]);
 				} else if (randomNumber <= 900 && randomNumber >= 851) {
 				}
 			}
