@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ItemBase  {
 
-	public int itemId { get; set; }
-	public string itemName { get; set; }
-	public int itemQuantity { get; set; }
+	public int itemId;
+	public string itemName;
+	public int itemQuantity;
 
 	public ItemBase(int id, int quantity){
 		itemId = id;
@@ -18,5 +18,9 @@ public class ItemBase  {
 		itemId = id;
 		itemName = name;
 		itemQuantity = 0;
+	}
+
+	public string PrintItem(){
+		return "ID: " + itemId + " || Name: " + itemName + " || Quantity: " + itemQuantity;
 	}
 }

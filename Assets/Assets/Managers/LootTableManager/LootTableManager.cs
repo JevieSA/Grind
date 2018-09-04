@@ -8,7 +8,7 @@ public class LootTableManager : MonoBehaviour {
 
 	List<LootTable> lootTables;
 
-	void Awake() {
+	void Start() {
 		if (instance == null)
 			instance = this;
 		else if (instance != this)
@@ -24,17 +24,7 @@ public class LootTableManager : MonoBehaviour {
 
 		// TODO: Get loot tables from file
 
-		List<int> commonItems = new List<int>();
-		List<int> uncommonItems = new List<int>();
-		List<int> rareItems = new List<int>();
-		List<int> epicItems = new List<int>();
-
-		commonItems.Add(0);
-		uncommonItems.Add(1);
-		rareItems.Add(2);
-		epicItems.Add(3);
-
-		lootTables.Add (new LootTable(0, 10, commonItems, uncommonItems, rareItems, epicItems));
+		// lootTables.Add (lT);
 	}
 
 	public List<int> GetDroppedItems(int lootTableId){

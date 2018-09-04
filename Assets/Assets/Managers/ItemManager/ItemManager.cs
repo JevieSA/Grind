@@ -35,7 +35,7 @@ public class ItemManager : MonoBehaviour {
 		itemDB.Add (new ItemBase (2, "Rare"));
 		itemDB.Add (new ItemBase (3, "Epic"));
 
-		ToString ();
+		// ToString ();
 	}
 
 	public ItemBase GetItem(int id){
