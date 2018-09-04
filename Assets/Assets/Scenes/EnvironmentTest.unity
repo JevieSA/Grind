@@ -1557,18 +1557,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 54939592999434046, guid: e6e374e2c4ac881488e4a02ea4ef0c93,
-        type: 2}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114930635870357932, guid: e6e374e2c4ac881488e4a02ea4ef0c93,
-        type: 2}
-      propertyPath: target
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 114606016698705360, guid: e6e374e2c4ac881488e4a02ea4ef0c93, type: 2}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6e374e2c4ac881488e4a02ea4ef0c93, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1269067950
@@ -2110,6 +2099,23 @@ Transform:
   m_PrefabParentObject: {fileID: 4735057329770122, guid: 4746e3e8c42c50d459277b2df6eabb35,
     type: 2}
   m_PrefabInternal: {fileID: 1107150411}
+--- !u!1 &2105908404 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1749593011254204, guid: 4fa0e6779c196ea4d926c47ed698c7f0,
+    type: 2}
+  m_PrefabInternal: {fileID: 833525873}
+--- !u!135 &2105908415
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2105908404}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.05
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!1001 &2116057190
 Prefab:
   m_ObjectHideFlags: 0

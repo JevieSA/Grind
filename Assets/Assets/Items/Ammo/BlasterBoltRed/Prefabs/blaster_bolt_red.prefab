@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca71af64c2f4daf47ab9d4f655f6d4e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ammoDamage: 5
+  ammoDamage: 50
   ammoLifetime: 1
   hitParticles: {fileID: 1560190098932230, guid: 367b099dab5ab1d4cbdb52ded7d6e7a5,
     type: 2}

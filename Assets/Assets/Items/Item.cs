@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Item  {
 
-	string name;
+	public int itemId { get; }
+	public string itemName { get; }
+	public int itemQuantity { get; set; }
+
+	public Item(int id, int quantity){
+		itemId = id;
+		itemQuantity = quantity;
+	}
 
 }

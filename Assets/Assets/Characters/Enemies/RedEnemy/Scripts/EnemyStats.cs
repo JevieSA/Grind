@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyStats : MonoBehaviour {
 
 	public float health = 100f;
+	public GameObject genericItemPrefab;
 
 	public void takeDamage(float damageAmount) {
 		health -= damageAmount;
@@ -24,5 +25,6 @@ public class EnemyStats : MonoBehaviour {
 
 	public void die(){
 		Destroy (gameObject);
+		Instantiate (genericItemPrefab, transform.position, transform.rotation);
 	}
 }

@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Assets\Characters\Enemies\RagdollEnemy\Scripts\RagdollEnemy.cs" />
      <Compile Include="Assets\Assets\Characters\Enemies\RedEnemy\Scripts\EnemyStats.cs" />
      <Compile Include="Assets\Assets\Characters\Player\PlayerMan\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Assets\Characters\Player\PlayerMan\Scripts\CharacterMovement.cs" />
@@ -59,6 +60,7 @@
      <Compile Include="Assets\Assets\Characters\Player\PlayerWoman\Scripts\PlayerWomanAnimation.cs" />
      <Compile Include="Assets\Assets\Items\Ammo\BlasterBoltRed\Scripts\BlasterBoltRed.cs" />
      <Compile Include="Assets\Assets\Items\Item.cs" />
+     <Compile Include="Assets\Assets\Items\TestItem\Scripts\TestItem.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\LookAt.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\ThirdPersonMouseControls.cs" />
@@ -107,7 +109,6 @@
      <Compile Include="Assets\Imported\Standard Assets\Utility\TimedObjectDestructor.cs" />
      <Compile Include="Assets\Imported\Standard Assets\Utility\WaypointCircuit.cs" />
      <Compile Include="Assets\Imported\Standard Assets\Utility\WaypointProgressTracker.cs" />
-     <Compile Include="Assets\RagdollEnemy.cs" />
      <None Include="Assets\Imported\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Imported\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Imported\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
