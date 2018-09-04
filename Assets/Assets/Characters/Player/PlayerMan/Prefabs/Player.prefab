@@ -1037,6 +1037,7 @@ GameObject:
   - component: {fileID: 114996350001453614}
   - component: {fileID: 114761126556524038}
   - component: {fileID: 114674893267536820}
+  - component: {fileID: 135413410584527318}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -2660,7 +2661,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb9e3f68c20c6949b4a01343e9d5461, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fireRate: 0.1
+  fireRate: 0.5
   target: {fileID: 0}
   blasterBolt: {fileID: 54366232000133846, guid: da4204f26e7dee542bd76d85a95e884e,
     type: 2}
@@ -2706,6 +2707,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0643ddb701cbc2e43b1f0601708e44cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &135413410584527318
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1749593011254204}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.05
+  m_Center: {x: 0, y: 0.75, z: 0}
 --- !u!136 &136473755703864784
 CapsuleCollider:
   m_ObjectHideFlags: 1
@@ -2715,7 +2728,7 @@ CapsuleCollider:
   m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.3
+  m_Radius: 0.18
   m_Height: 1.6
   m_Direction: 1
   m_Center: {x: 0, y: 0.8, z: 0}
