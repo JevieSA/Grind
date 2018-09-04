@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 54795425781025770}
   - component: {fileID: 23061090535236518}
   - component: {fileID: 114568443842691218}
+  - component: {fileID: 114670681280730002}
   m_Layer: 0
   m_Name: TestItem
   m_TagString: Untagged
@@ -93,8 +94,8 @@ Rigidbody:
   m_GameObject: {fileID: 1541647437800018}
   serializedVersion: 2
   m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
+  m_Drag: 5
+  m_AngularDrag: 0.5
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
@@ -121,5 +122,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a7e264433e106b48bd27697a58c9606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114670681280730002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1541647437800018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a6714c0be179a4285d3431f5c623ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

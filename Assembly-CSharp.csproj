@@ -60,11 +60,14 @@
      <Compile Include="Assets\Assets\Characters\Player\PlayerWoman\Scripts\PlayerWomanAnimation.cs" />
      <Compile Include="Assets\Assets\Items\Ammo\BlasterBoltRed\Scripts\BlasterBoltRed.cs" />
      <Compile Include="Assets\Assets\Items\Item.cs" />
+     <Compile Include="Assets\Assets\Items\ItemBase.cs" />
      <Compile Include="Assets\Assets\Items\TestItem\Scripts\TestItem.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\LookAt.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\ThirdPersonCamera.cs" />
      <Compile Include="Assets\Assets\Managers\Camera\ThirdPersonMouseControls.cs" />
-     <Compile Include="Assets\Assets\Managers\MyDataTable.cs" />
+     <Compile Include="Assets\Assets\Managers\ItemManager\ItemManager.cs" />
+     <Compile Include="Assets\Assets\Managers\LootTableManager\LootTable.cs" />
+     <Compile Include="Assets\Assets\Managers\LootTableManager\LootTableManager.cs" />
      <Compile Include="Assets\Imported\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" />
      <Compile Include="Assets\Imported\Standard Assets\Characters\FirstPersonCharacter\Scripts\HeadBob.cs" />
      <Compile Include="Assets\Imported\Standard Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />

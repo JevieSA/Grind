@@ -2,15 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Item  {
+public class Item : MonoBehaviour {
 
-	public int itemId { get; }
-	public string itemName { get; }
+	public int itemId { get; set; }
+	public string itemName { get; set; }
 	public int itemQuantity { get; set; }
-
-	public Item(int id, int quantity){
-		itemId = id;
-		itemQuantity = quantity;
-	}
 
 }

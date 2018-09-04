@@ -2498,8 +2498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bd2dab1f09678542bee39c63d7aa4ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lootTableId: 0
   health: 100
-  genericItemPrefab: {fileID: 1541647437800018, guid: a496b3dd2820965468d312060943e182,
+  spawnableItemPrefab: {fileID: 1541647437800018, guid: a496b3dd2820965468d312060943e182,
     type: 2}
 --- !u!114 &114930635870357932
 MonoBehaviour:

@@ -28,7 +28,7 @@ public class BlasterBoltRed : MonoBehaviour {
 		if (other.gameObject.tag == "Enemy") {
 			SpawnHitParticles ();
 			EnemyStats enemyStats = other.gameObject.GetComponent<EnemyStats> ();
-			enemyStats.takeDamage (ammoDamage);
+			enemyStats.TakeDamage (ammoDamage);
 			Destroy (gameObject);
 		} else if (other.gameObject.tag == "Player") {
 			Destroy (gameObject);
